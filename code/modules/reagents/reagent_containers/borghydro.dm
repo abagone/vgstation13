@@ -105,3 +105,17 @@
 	reagent_ids = list(DOCTORSDELIGHT, DEXALINP, SPACEACILLIN, "charcoal")
 	volume = 50
 	recharge_time = 3 // time it takes for shots to recharge (in seconds)
+
+/obj/item/weapon/reagent_containers/borghypo/peace
+	name = "Peace Hypospray"
+	desc = "A tranquilizer synthesizer and injection system. These drugs are capable of inducing a state of relaxation, or euphoria."
+	reagent_ids = list(STOXIN,CRYPTOBIOLIN)
+	volume = 5
+	recharge_time = 20
+
+/obj/item/weapon/reagent_containers/borghypo/peace/hacked
+	desc = "Everything's peaceful in death!"
+	icon_state = "borghypo_s"
+	reagent_ids = list(CYANIDE)
+	volume = 10
+	recharge_time = 10
